@@ -1,7 +1,2 @@
-
-def main():
-    user_input = input("ป้อนตัวเลข (คั่นด้วย space): ")
-    numbers = [int(x) for x in user_input.split()]
-    print(numbers)
-if __name__ == "__main__":
-    main()
+input_n = list([2,8,9,48,8,22,-12,2])
+print(input_n)
